@@ -1,14 +1,10 @@
 # gnews_telebot
-news.google.com telegram bot  parser and posting
+Вот пример более продвинутого бота Telegram, который использует библиотеку python-telegram-bot для генерации новостей с сайта news.google.com с помощью библиотеки BeautifulSoup, а также отправляет ссылку на статью:
 
-пример сложного бота Telegram для генерации новостей из news.google.com
+Вам нужно будет заменить YOUR_TOKENтокен для вашего бота Telegram.
 
-Advanced Telegram bot that uses the python-telegram-bot library to generate news from news.google.com using the BeautifulSoup library and also it send the link of the article as well:
+Этот бот использует get_newsфункцию для извлечения новостей с веб-сайта Google News с помощью библиотеки BeautifulSoup. Затем пользователь может использовать /newsкоманду, за которой следует тема, чтобы получать новости, связанные с этой темой. Он также отправляет ссылку на статью вместе с заголовком статьи.
 
-You'll need to replace YOUR_TOKEN with the token for your Telegram bot.
+Обратите внимание, что удаление новостных статей из Интернета без разрешения является незаконным во многих странах. Вы должны проверить условия использования веб-сайта, с которого вы выполняете сбор данных, и убедиться, что у вас есть законное право на сбор данных, прежде чем делать это.
 
-This bot uses the get_news function to scrape the news from the Google News website using the BeautifulSoup library. The user can then use the /news command followed by a topic to get news related to that topic. It also sends the link of the article along with the article title.
-
-Please note that scraping news articles from the web without permission is not legal in many countries. You should check the terms of use of the website you are scraping from and make sure that you have the legal right to scrape the data before doing so.
-
-This is an example of advanced bot, you can add more functionality as per your requirement.
+Это пример более продвинутого бота, вы можете добавить больше функций в соответствии с вашими требованиями.
